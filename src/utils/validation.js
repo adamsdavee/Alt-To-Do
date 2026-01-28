@@ -9,4 +9,12 @@ const validateCredentials = (data) => {
    return schema.validate(data)
 }
 
-module.exports = { validateCredentials }
+const validateTodo = (data) => {
+   const schema = Joi.object({
+      title: Joi.string().min(3).max(100).required(),
+   })
+
+   return schema.validate(data)
+}
+
+module.exports = { validateCredentials, validateTodo }
