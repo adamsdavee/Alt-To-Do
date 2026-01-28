@@ -1,0 +1,48 @@
+const mongoose = require("mongoose")
+const argon2 = require("argon2")
+
+const UserModel = new mongoose.Schema(
+   {
+      username: {
+         type: String,
+         required: true,
+         unique: true,
+         trim: true,
+      },
+
+      password: {
+         type: String,
+         required: true,
+      },
+
+      createdAt: {
+         type: Date,
+         default: Date.now(),
+      },
+   },
+   {
+      timestamps: true,
+   },
+)
+
+UserModel.pre("save", async function (next) {
+   if (this.isModified("password")) {
+      try {
+         this.password = await argon2.hash(this.password)
+      } catch (error) {
+         return next(error)
+      }
+   }
+})
+
+UserModel.methods.comparePassword = async function (candidatePassword) {
+   try {
+      return await argon2.verify(this.password, candidatePassword)
+   } catch (error) {
+      throw error
+   }
+}
+
+const User = mongoose.model("User", UserModel)
+
+module.exports = User

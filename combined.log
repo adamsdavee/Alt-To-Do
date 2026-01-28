@@ -1,0 +1,115 @@
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:00:14.405Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:03:26.817Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:03:48.777Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:06:07.059Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:11:32.200Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:14:22.237Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:16:39.714Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:17:48.400Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:19:11.176Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:19:14.252Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:19:24.279Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:20:29.680Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:20:33.513Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:20:36.116Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:252:15)\n    at registerUser (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\controllers\\auth.controller.js:43:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-01-28T14:20:36.121Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:21:14.914Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:21:16.961Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:21:42.012Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:252:15)\n    at registerUser (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\controllers\\auth.controller.js:43:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-01-28T14:21:42.014Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:22:52.690Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:23:46.555Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:23:51.056Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:23:52.735Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:252:15)\n    at registerUser (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\controllers\\auth.controller.js:41:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-01-28T14:23:52.739Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:24:47.505Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:24:51.828Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:24:53.920Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:252:15)\n    at registerUser (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\controllers\\auth.controller.js:40:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-01-28T14:24:53.925Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:32:15.823Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:32:20.622Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:32:49.357Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:32:51.591Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:32:59.945Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:33:03.896Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:33:10.453Z"}
+{"level":"error","message":"Unable to register user","service":"api-gateway","timestamp":"2026-01-28T14:33:37.813Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:252:15)\n    at registerUser (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\controllers\\auth.controller.js:40:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-01-28T14:33:37.817Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:33:50.159Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:33:57.375Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:34:21.925Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:34:24.148Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:34:25.848Z"}
+{"level":"error","message":"Incorrect data format","service":"api-gateway","timestamp":"2026-01-28T14:35:19.617Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:35:19.820Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\express\\lib\\response.js:252:15)\n    at loginUser (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\controllers\\auth.controller.js:74:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-01-28T14:35:19.821Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:35:34.580Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:36:56.837Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:37:01.392Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:37:13.211Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:37:40.471Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:37:42.690Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T14:37:45.340Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:38:36.540Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:38:40.845Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:45:13.759Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:45:18.398Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:45:56.101Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:45:58.274Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:46:43.861Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:46:48.466Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:52:28.362Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:54:16.551Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:54:21.264Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:54:42.822Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:54:45.008Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T14:54:53.312Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T14:54:55.438Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:02:47.601Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:02:52.340Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:03:32.162Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:03:34.408Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:03:35.310Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:03:37.329Z"}
+{"level":"error","message":"TypeError: Assignment to constant variable.\n    at authMiddleware (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\middlewares\\auth.middleware.js:13:10)\n    at Layer.handleRequest (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:186:3)","service":"api-gateway","timestamp":"2026-01-28T15:04:03.781Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:04:48.081Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:04:53.027Z"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at authMiddleware (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\src\\middlewares\\auth.middleware.js:21:7)\n    at Layer.handleRequest (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\user\\Documents\\Codes\\Altschool\\Assignments\\To-do-assignment\\node_modules\\router\\index.js:186:3)","service":"api-gateway","timestamp":"2026-01-28T15:04:54.676Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:05:30.295Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:05:32.605Z"}
+{"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T15:05:35.524Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:06:09.715Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:06:12.282Z"}
+{"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T15:06:13.170Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:06:40.227Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:06:42.418Z"}
+{"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T15:06:43.860Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:07:23.514Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:07:27.927Z"}
+{"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T15:07:29.258Z"}
+{"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T15:07:33.153Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:07:54.195Z"}
+{"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T15:08:24.451Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:08:25.123Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:09:01.384Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T15:09:15.759Z"}
+{"level":"error","message":"Server error whilst user is logging in","service":"api-gateway","timestamp":"2026-01-28T15:09:23.927Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:09:29.014Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:10:32.926Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:10:37.404Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:11:31.609Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:11:35.884Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:12:08.259Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:12:10.831Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:12:31.220Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:12:33.608Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:12:53.388Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:12:57.830Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:19:04.114Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:19:06.809Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:21:21.062Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:21:23.806Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:22:05.904Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:22:08.210Z"}
+{"level":"info","message":"To-Do list is running on port: 3000","service":"api-gateway","timestamp":"2026-01-28T15:22:20.876Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-28T15:22:23.218Z"}
