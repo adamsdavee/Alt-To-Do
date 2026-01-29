@@ -4,9 +4,8 @@
 
 ### 1️⃣ Login (Landing Page)
 
-- The application landing page is **`/login`**
-- Visit `http://localhost:3000/login` to get started or
-- Visit `http://localhost:3000/register`
+- The application landing page is **`/`**
+- Visit `https://alt-to-do-1.onrender.com/` to get started
 
 ### 2️⃣ Register / Login
 
