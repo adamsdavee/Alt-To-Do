@@ -22,7 +22,7 @@
   </div>
 
   <!-- Add task -->
-  <form method="POST" action="/tasks" class="add-task">
+  <form method="POST" action="https://alt-to-do-1.onrender.com/api/todos/tasks" class="add-task">
     <input name="title" placeholder="New task title..." required />
     <button type="submit">Add Task</button>
   </form>
@@ -45,7 +45,7 @@
         <!-- Update status -->
         <form
           method="POST"
-          action="/api/todos/update/<%= task._id %>?_method=PUT"
+          action="https://alt-to-do-1.onrender.com/api/todos/update/<%= task._id %>?_method=PUT"
           class="task-actions"
         >
           <select name="status">
@@ -65,7 +65,7 @@
   </ul>
 
   <!-- Logout -->
-  <form method="POST" action="/api/auth/logout">
+  <form method="POST" action="https://alt-to-do-1.onrender.com/api/auth/logout">
     <button class="logout">Logout</button>
   </form>
 </div>

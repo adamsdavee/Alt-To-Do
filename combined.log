@@ -337,3 +337,4 @@
 {"level":"info","message":"To-Do list running on port 3000","service":"api-gateway","timestamp":"2026-01-29T18:09:29.986Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-29T18:09:35.731Z"}
 {"level":"info","message":"To-Do list running on port 3000","service":"api-gateway","timestamp":"2026-01-29T18:19:59.002Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"api-gateway","timestamp":"2026-01-29T18:20:05.461Z"}
