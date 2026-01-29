@@ -157,7 +157,7 @@ const registerUser = async (req, res) => {
       const user = new UserModel(value)
       await user.save()
 
-      res.redirect("/login")
+      res.redirect("/")
    } catch (error) {
       logger.error("Registration failed")
       res.status(500).render("register", {
@@ -168,7 +168,7 @@ const registerUser = async (req, res) => {
 
 const logOut = (req, res) => {
    res.clearCookie("token")
-   res.redirect("/login")
+   res.redirect("/")
 }
 
 module.exports = {
