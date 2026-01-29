@@ -1,0 +1,73 @@
+<%- include("./partials/header.ejs", { title: "Todos" }); -%>
+
+<div class="container">
+  <div class="todo-header">
+    <h2>My Todo List</h2>
+
+    <div class="task-stats">
+      <span>Total: <strong><%= tasks.length %></strong></span>
+      <span>
+        Pending:
+        <strong>
+          <%= tasks.filter(t => t.status === "pending").length %>
+        </strong>
+      </span>
+      <span>
+        Completed:
+        <strong>
+          <%= tasks.filter(t => t.status === "completed").length %>
+        </strong>
+      </span>
+    </div>
+  </div>
+
+  <!-- Add task -->
+  <form method="POST" action="/tasks" class="add-task">
+    <input name="title" placeholder="New task title..." required />
+    <button type="submit">Add Task</button>
+  </form>
+
+  <!-- Task list -->
+  <ul class="tasks">
+    <% if (tasks.length === 0) { %>
+      <li class="empty">No tasks yet 👀</li>
+    <% } %>
+
+    <% tasks.forEach(task => { %>
+      <li class="task">
+        <div class="task-info">
+          <h4><%= task.title %></h4>
+          <span class="status <%= task.status %>">
+            <%= task.status %>
+          </span>
+        </div>
+
+        <!-- Update status -->
+        <form
+          method="POST"
+          action="/api/todos/update/<%= task._id %>?_method=PUT"
+          class="task-actions"
+        >
+          <select name="status">
+            <option value="pending" <%= task.status === "pending" ? "selected" : "" %>>
+              Pending
+            </option>
+            <option value="completed" <%= task.status === "completed" ? "selected" : "" %>>
+              Completed
+            </option>
+            <option value="deleted">Delete</option>
+          </select>
+
+          <button type="submit">Update</button>
+        </form>
+      </li>
+    <% }) %>
+  </ul>
+
+  <!-- Logout -->
+  <form method="POST" action="/api/auth/logout">
+    <button class="logout">Logout</button>
+  </form>
+</div>
+
+<%- include("./partials/footer.ejs"); -%>

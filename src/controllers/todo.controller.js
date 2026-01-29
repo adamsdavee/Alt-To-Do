@@ -43,11 +43,17 @@ const createTask = async (req, res) => {
 
       const accessToken = generateToken(user)
 
-      res.status(400).json({
-         success: true,
-         message: "User task created successfully",
-         accessToken,
+      //   res.status(400).json({
+      //      success: true,
+      //      message: "User task created successfully",
+      //      accessToken,
+      //   })
+
+      res.cookie("token", accessToken, {
+         httpOnly: true,
       })
+
+      res.redirect("/api/todos/tasks")
    } catch (error) {
       logger.error("Server error whilst creating task")
       res.status(500).json({
@@ -90,11 +96,13 @@ const getAllTasks = async (req, res) => {
          })
       }
 
-      res.status(200).json({
-         success: true,
-         message: "All pending and completed tasks sent successfully",
-         tasks,
-      })
+      //   res.status(200).json({
+      //      success: true,
+      //      message: "All pending and completed tasks sent successfully",
+      //      tasks,
+      //   })
+
+      res.render("todos", { tasks })
    } catch (error) {
       logger.error("Server error in getting all tasks")
       res.status(500).json({
@@ -143,11 +151,13 @@ const updateTask = async (req, res) => {
          })
       }
 
-      res.status(200).json({
-         success: true,
-         message: "Task updated successfully",
-         task,
-      })
+      res.redirect("/api/todos/tasks")
+
+      //   res.status(200).json({
+      //      success: true,
+      //      message: "Task updated successfully",
+      //      task,
+      //   })
    } catch (error) {
       logger.error("Server error whilst updating task")
       res.status(500).json({

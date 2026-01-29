@@ -3,7 +3,7 @@ const logger = require("../utils/logger")
 require("dotenv").config()
 
 const authMiddleware = async (req, res, next) => {
-   let token = req.headers.authorization
+   const token = req.cookies.token
    if (!token) {
       logger.error("No token for authentication found")
       res.status(400).json({
@@ -11,7 +11,7 @@ const authMiddleware = async (req, res, next) => {
          message: "No token for authentication found",
       })
    }
-   token = token.split(" ")[1]
+   //    token = token.split(" ")[1]
    try {
       const decodedTokenInfo = jwt.verify(token, process.env.JWT_SECRET)
       req.userInfo = decodedTokenInfo

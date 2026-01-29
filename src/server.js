@@ -1,28 +1,46 @@
 require("dotenv").config()
 const express = require("express")
+const cookieParser = require("cookie-parser")
 const logger = require("./utils/logger")
 const errorHandler = require("./middlewares/error.middleware")
 const authRouter = require("./routes/auth.route")
-const connectToMongoDb = require("./db/connectMongoDb")
 const todoRouter = require("./routes/todo.route")
+const connectToMongoDb = require("./db/connectMongoDb")
+const path = require("path")
 
 const app = express()
 const PORT = process.env.PORT || 3000
 
+const cwd = path.resolve()
+const dir = path.join(cwd, "src", "public")
+
 connectToMongoDb()
 
-// middlewares
+// Middlewares
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+app.use(cookieParser())
 
+app.set("view engine", "ejs")
+app.set("views", "src/views")
+
+app.use(express.static(dir))
+
+// Routes
 app.use("/api/auth", authRouter)
-app.use("/api/todo", todoRouter)
+app.use("/api/todos", todoRouter)
 
-app.get("/", async (req, res) => {
-   res.send("It is working!")
+app.get("/", (req, res) => {
+   res.render("login")
+})
+app.get("/register", (req, res) => {
+   res.render("register")
 })
 
 app.use(errorHandler)
 
 app.listen(PORT, () => {
-   logger.info(`To-Do list is running on port: ${PORT}`)
+   logger.info(`To-Do list running on port ${PORT}`)
 })
+
+module.exports = app
