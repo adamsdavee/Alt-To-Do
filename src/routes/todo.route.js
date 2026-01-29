@@ -1,12 +1,15 @@
 const express = require("express")
-const { createTask } = require("../controllers/todo.controller")
+const {
+   createTask,
+   getAllTasks,
+   updateTask,
+} = require("../controllers/todo.controller")
 const { authMiddleware } = require("../middlewares/auth.middleware")
 
 const todoRouter = express.Router()
 
-todoRouter.get("/tasks", authMiddleware)
+todoRouter.get("/tasks", authMiddleware, getAllTasks)
 todoRouter.post("/create", authMiddleware, createTask)
-todoRouter.put("/update/:id", authMiddleware)
-todoRouter.delete("/delete/:id", authMiddleware)
+todoRouter.put("/update/:id", authMiddleware, updateTask)
 
 module.exports = todoRouter

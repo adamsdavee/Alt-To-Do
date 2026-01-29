@@ -33,3 +33,7 @@
 {"level":"error","message":"Auth service error","service":"api-gateway","timestamp":"2026-01-28T20:13:41.550Z"}
 {"level":"error","message":"Server error whilst creating task","service":"api-gateway","timestamp":"2026-01-28T20:18:04.892Z"}
 {"level":"error","message":"Server error whilst creating task","service":"api-gateway","timestamp":"2026-01-28T20:18:43.416Z"}
+{"level":"error","message":"Invalid status update","service":"api-gateway","timestamp":"2026-01-29T07:02:55.011Z"}
+{"level":"error","message":"Server error whilst updating task","service":"api-gateway","timestamp":"2026-01-29T07:18:27.931Z"}
+{"level":"error","message":"Server error whilst updating task","service":"api-gateway","timestamp":"2026-01-29T07:18:32.569Z"}
+{"level":"error","message":"Server error whilst updating task","service":"api-gateway","timestamp":"2026-01-29T07:18:40.237Z"}
