@@ -11,8 +11,8 @@ const path = require("path")
 const app = express()
 const PORT = process.env.PORT || 3000
 
-const cwd = path.resolve()
-const dir = path.join(cwd, "src", "public")
+// const cwd = path.resolve()
+// const dir = path.join(cwd, "src", "public")
 
 connectToMongoDb()
 
@@ -22,9 +22,9 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 
 app.set("view engine", "ejs")
-app.set("views", "src/views")
+app.set("views", path.join(__dirname, "public"))
 
-app.use(express.static(dir))
+app.use(express.static(path.join(__dirname, "public")))
 
 // Routes
 app.use("/api/auth", authRouter)
